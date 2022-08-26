@@ -20,5 +20,9 @@
 #Color is: Black
 #Name is: XYZ
 
+def pass_params(id, name, color)
+    puts "#ID is: #{id}, #Color is: #{color}, #Name is: #{name}"
+end
 
-# nimeongeza hii line
+pass_params(1, "ABC", "Red")
+pass_params(2, "XYZ", "Black")
